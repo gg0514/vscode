@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "ms-python.python",             // Python 실행 및 디버깅
+    "ms-python.vscode-pylance",     // IntelliSense 및 타입 분석 엔진
+    "ms-toolsai.jupyter",           // Jupyter Notebook / ipynb 파일 실행
+    "ms-python.debugpy",            // Python 디버거 (자동 포함될 수도 있음)
+    "ms-python.black-formatter",    // Black 코드 포매터
+    "ms-python.isort",              // import 자동 정렬
+  ],
+  "unwantedRecommendations": [
+    "ms-dotnettools.csharp",        // .NET 확장은 Python 프로젝트에 불필요
+    "ms-vscode.js-debug"            // Node.js 디버거도 필요 없음
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "recommendations": [
+    "ms-dotnettools.csharp",          // C# 기본 언어 서버 및 디버거
+  ]
+}

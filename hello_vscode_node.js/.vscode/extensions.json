@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",        // ESLint - 코드 품질 검사
+    "esbenp.prettier-vscode",        // Prettier - 코드 포맷터
+    "ms-vscode.js-debug",            // Node.js 디버거
+  ],
+  "unwantedRecommendations": [
+    "ms-python.python",              // Node 프로젝트에는 불필요한 Python 확장
+    "ms-dotnettools.csharp"          // .NET용 확장 방지
+  ]
+}
