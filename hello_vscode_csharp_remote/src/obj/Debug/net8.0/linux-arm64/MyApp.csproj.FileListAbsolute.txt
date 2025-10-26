@@ -1,0 +1,15 @@
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\bin\Debug\net8.0\linux-arm64\MyApp
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\bin\Debug\net8.0\linux-arm64\MyApp.deps.json
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\bin\Debug\net8.0\linux-arm64\MyApp.runtimeconfig.json
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\bin\Debug\net8.0\linux-arm64\MyApp.dll
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\bin\Debug\net8.0\linux-arm64\MyApp.pdb
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\obj\Debug\net8.0\linux-arm64\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\obj\Debug\net8.0\linux-arm64\MyApp.AssemblyInfoInputs.cache
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\obj\Debug\net8.0\linux-arm64\MyApp.AssemblyInfo.cs
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\obj\Debug\net8.0\linux-arm64\MyApp.csproj.CoreCompileInputs.cache
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\obj\Debug\net8.0\linux-arm64\MyApp.sourcelink.json
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\obj\Debug\net8.0\linux-arm64\MyApp.dll
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\obj\Debug\net8.0\linux-arm64\refint\MyApp.dll
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\obj\Debug\net8.0\linux-arm64\MyApp.pdb
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\obj\Debug\net8.0\linux-arm64\MyApp.genruntimeconfig.cache
+C:\work\vscode_launcher\hello_vscode_csharp_remote\src\obj\Debug\net8.0\linux-arm64\ref\MyApp.dll

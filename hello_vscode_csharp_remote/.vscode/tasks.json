@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "publish",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/src/MyApp.csproj",
+                "-c", "Debug",
+                "-r", "linux-arm64",  // 또는 linux-arm
+                "-o", "${workspaceFolder}/bin/publish",
+                "--self-contained", "false"
+            ]
+        },
+        {
+            "label": "copy-to-pi",
+            "type": "shell",
+            "command": "scp",
+            "args": [
+                "-r",
+                "${workspaceFolder}/bin/publish/*",
+                "bluesen@192.168.0.55:/home/bluesen/test/remote_debug/"
+            ],
+            "dependsOn": "publish"
+        },
+        {
+            "label": "publish-and-copy",
+            "dependsOn": [
+                "publish",
+                "copy-to-pi"
+            ]
+        }
+    ]
+}

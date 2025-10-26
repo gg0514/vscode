@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Pi",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "/home/bluesen/.dotnet/dotnet",
+            "args": ["/home/bluesen/test/remote_debug/MyApp.dll"],
+            "cwd": "/home/bluesen/test/remote_debug",
+            "stopAtEntry": false,  // 추가
+            "pipeTransport": {
+                "pipeProgram": "ssh",
+                "pipeArgs": ["bluesen@192.168.0.55"],
+                "debuggerPath": "/home/bluesen/.vsdbg/vsdbg"
+            },
+            "sourceFileMap": {
+                "/home/bluesen/test/remote_debug": "${workspaceFolder}/src"
+            },
+            "justMyCode": true  // 사용자 코드만 디버깅            
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+C:\work\vscode_launcher\hello_vscode_csharp_remote\bin\publish\MyApp
+C:\work\vscode_launcher\hello_vscode_csharp_remote\bin\publish\MyApp.dll
+C:\work\vscode_launcher\hello_vscode_csharp_remote\bin\publish\MyApp.deps.json
+C:\work\vscode_launcher\hello_vscode_csharp_remote\bin\publish\MyApp.runtimeconfig.json
+C:\work\vscode_launcher\hello_vscode_csharp_remote\bin\publish\MyApp.pdb
