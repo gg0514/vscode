@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Remote Avalonia",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "/home/bluesen/.dotnet/dotnet",
+            "args": ["/home/bluesen/test/remote_avalonia/MyApp.dll"],
+            "cwd": "/home/bluesen/test/remote_avalonia",
+            "stopAtEntry": false,  // 추가
+            "pipeTransport": {
+                "pipeProgram": "ssh",
+                "pipeArgs": ["bluesen@192.168.0.55"],
+                "pipeCwd": "${workspaceFolder}/src",
+                "debuggerPath": "/home/bluesen/.vsdbg/vsdbg"
+            },      
+            "env": {
+              "DISPLAY": ":0"
+            },               
+            "sourceFileMap": {
+                "/home/bluesen/test/remote_avalonia": "${workspaceFolder}/src"
+            },
+            "justMyCode": true  // 사용자 코드만 디버깅            
+        }
+    ]
+}
