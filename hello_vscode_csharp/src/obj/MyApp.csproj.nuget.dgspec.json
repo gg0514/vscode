@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\work\\hello_vscode_csharp\\src\\MyApp.csproj": {}
+    "C:\\work\\vscode_launcher\\hello_vscode_csharp\\src\\MyApp.csproj": {}
   },
   "projects": {
-    "C:\\work\\hello_vscode_csharp\\src\\MyApp.csproj": {
+    "C:\\work\\vscode_launcher\\hello_vscode_csharp\\src\\MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\hello_vscode_csharp\\src\\MyApp.csproj",
+        "projectUniqueName": "C:\\work\\vscode_launcher\\hello_vscode_csharp\\src\\MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "C:\\work\\hello_vscode_csharp\\src\\MyApp.csproj",
+        "projectPath": "C:\\work\\vscode_launcher\\hello_vscode_csharp\\src\\MyApp.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\hello_vscode_csharp\\src\\obj\\",
+        "outputPath": "C:\\work\\vscode_launcher\\hello_vscode_csharp\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

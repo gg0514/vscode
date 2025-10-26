@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I2m4hb0ol6w=",
+  "dgSpecHash": "eiUDovkm+kQ=",
   "success": true,
-  "projectFilePath": "C:\\work\\hello_vscode_csharp\\src\\MyApp.csproj",
+  "projectFilePath": "C:\\work\\vscode_launcher\\hello_vscode_csharp\\src\\MyApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.17\\microsoft.netcore.app.ref.8.0.17.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.17\\microsoft.windowsdesktop.app.ref.8.0.17.nupkg.sha512",
